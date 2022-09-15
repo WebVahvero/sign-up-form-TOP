@@ -1,3 +1,3 @@
 # sign-up-form-TOP
 
-Assigment made for The Idin Project
+Assigment made for The Odin Project
