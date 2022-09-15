@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign-up-form</title>
     <script src="https://kit.fontawesome.com/b624cfda5b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css">
+    <link rel = "icon" type = "image/svg" href = "./img/sign-hanging-solid.svg">
+    <script defer src="./index.js"></script>
 </head>
 <body>
     <header>
@@ -17,7 +19,7 @@
     </header>
     <main>
         <aside>
-            <p><strong>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams<br>Sign up now to get started.</strong></p>
+            <p><strong>This is not a real online service!<br> You know you need something like this in your life to help you realize your deepest dreams<br>Sign up now to get started.</strong></p>
             <p><strong>You <i>know</i> you want to.</strong></p>
         </aside>
         <div class="form-wrapper">
@@ -47,10 +49,12 @@
                     <label for="cpassword">Confirm Password</label>
                     <input type="password" name="cpassword" id="cpassword">
                 </div>
+                <p id="errText">Passwords do not match!</p>
+                <p id="welcomeText"></p>
             </form>
         </div>
         <div class="interactives">
-            <button>Create Account</button>
+            <button id="sendBtn">Create Account</button>
             <h4>Already have an account? <a href="#">Log in</a></h4>
         </div>
     </main>
